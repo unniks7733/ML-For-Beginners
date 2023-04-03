@@ -19,4 +19,5 @@ jobs:
         run: |
           ls masterfolder/subfolder
           tar -czvf masterfolder.tar.gz masterfolder/subfolder
+          ls 
           

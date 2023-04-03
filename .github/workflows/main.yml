@@ -11,3 +11,4 @@ jobs:
       - name: Hello world
         run: |
           mkdir masterfolder && mkdir masterfolder/subfolder
+          ls

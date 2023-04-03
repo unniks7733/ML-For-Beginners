@@ -11,4 +11,7 @@ jobs:
       - name: Hello world
         run: |
           mkdir masterfolder && mkdir masterfolder/subfolder
-          ls
+      - name: Checkout private tools
+        uses: actions/checkout@v3
+        with:
+         path: masterfolder/subfolder
